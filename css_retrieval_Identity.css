@@ -1,0 +1,406 @@
+
+/* CSS destiné à la page 1 */
+
+        /* Entre CSS-HTML et Javascript */
+#monCanvas{
+    border: 4px solid yellowgreen;
+    border-style: double;
+    position : absolute;
+    width: 650px;
+    height: 380px;
+    transform: translate(-50%, -50%);
+    top: 65%;
+    left:50%;
+    background-image: url("./images/arrierePlan.png");
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+}
+
+#conteneurImages{
+    position:absolute;
+    background:maroon;
+    opacity: 0.5;
+    z-index:0;
+    transform: translate(-50%, -50%);
+    border: 3px dashed maroon;
+    border-radius: 20%;
+}
+
+
+.cvmg1 {
+    position:absolute;
+    border-radius: 15%;
+    border-style: dashed;
+    border-color: yellowgreen;
+    text-align: center;
+    align-items: center;
+    padding: 0.1%;
+    background: maroon;
+    z-index:1;
+    max-width: 450px;
+    max-height: 300px;
+    transform: translate(-50%, -50%);
+    top: 65%;
+    left:50%;   
+}
+
+
+.container{
+    position:fixed;
+    display : flex;
+    align-items: center;
+    justify-content: center; 
+    width: 650px;
+    height: 380px;
+    transform: translate(-50%, -50%);
+    top: 65%;
+    left:50%;
+    z-index: 0;
+}
+
+ .contenuC{
+     opacity: 0.9;
+     border-radius: 3%;
+     max-width: 25em;
+     max-height:40em;
+     text-align: center;
+     padding: 1.5rem;
+     width: 100%;
+     height:15%
+  
+ }
+
+
+ .bouton{
+    background: yellowgreen;
+    color: maroon;
+    width:100%;
+    height: 20%;
+    position:relative;
+    top:100%; 
+    left:1%;
+    padding-top: 0.75rem;
+    padding-bottom: 0.55rem;
+    border-radius: 900px;
+ }
+
+
+ .spanish{
+     font-size: 2rem;
+     font-weight: bold;
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+
+
+        /* Entre CSS-HTML uniquement */
+
+ .spanish1{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color:greenyellow;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+ body{
+    background:#2b150d ;
+    opacity: 1;
+ }
+
+ #titreJeu{
+    position:absolute;
+    width : 600px;
+    height : 800px;
+    
+ }
+
+ #TitrePrincipal{
+    position:absolute;
+    font-size: 5rem;
+    max-width: 100%;
+    max-height:100%;
+    color: yellowgreen;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    left :28%;
+    top:0px;
+    margin-top: 0px;
+   
+
+ }
+
+ #Instructions{
+    position:absolute;
+    display: flex;
+    width : 70%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    top: 15%;
+    left:15%;
+ }
+
+ p{
+     font-size: 1.3rem;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+     color:whitesmoke;
+ }
+
+
+ nav {
+     position : relative;
+    background-color:yellowgreen;
+    border-radius: 10px;
+    height: 150px;
+    position: absolute;
+    display: flex;
+    top: 100px;
+    width: 150px;
+    left:0px;
+  }
+  
+
+  
+  nav li {
+      position : absolute;
+      border-radius: 5px;
+      font-size: 15px;
+      list-style: none;
+      margin-left: 120px;
+      padding: 20px 20px;
+      text-align: center;
+      flex-direction: column;
+      text-transform: uppercase;
+  }
+  
+  nav a {
+      color: maroon;
+      text-decoration: underline;
+      font-weight: bold ;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+
+  nav li:first-child {
+
+    left: -105px;
+      top: 0;
+  }
+  
+  nav li:nth-child(2) {
+    left: -115px;
+      top: 45px;
+  }
+  
+  nav li:last-child{
+    left: -106px;
+      top: 90px;
+  }
+  
+
+  #ImageDesChauvesSouris{
+      position : absolute;
+  }
+
+  #bg-1{
+      position: absolute;
+      left: 20px;
+      top: 500px;
+
+  }
+
+  #bg-2{
+    position: absolute;
+    left: 1200px;
+    top: 200px;
+}
+
+#bg-3{  
+    position: absolute;    
+    left: 935px;
+    top: 655px;
+    z-index: 2;
+}
+
+/* Ci-dessous CSS destiné à la page 2 */
+
+#cvEntier{
+    position : absolute;
+    display: flex;
+    width : 850px;
+    height : 600px;
+    left: 35%;
+    top: 15%;
+    
+}
+
+.imgCV{
+    max-width: 100%;
+    max-height: 100%;
+    background: maroon;
+    opacity: 0.75;
+    border-radius: 10%;
+    text-align: center;
+    justify-content: center;
+}
+
+#divBtnDown{
+        opacity: 0.9;
+        border-radius: 3%;
+        width: 100px;
+        height:50px;
+        text-align: center;
+        padding: 1.5rem;
+
+    }
+   
+#BtnDown{
+       background: yellowgreen;
+       color: maroon;
+       width:100%;
+       height: 20%;
+       position:relative;
+       left: 625px;
+       top: 700px;
+       padding-top: 0.75rem;
+       padding-bottom: 0.55rem;
+       border-radius: 900px;
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       font-weight: bold;
+    }
+
+#bg-5{  
+        position: absolute;    
+        left: 850px;
+        top: 655px;
+        z-index: 2;
+    }
+
+/* Ci-dessous CSS destiné à la page 3 */
+
+#LinkedIn{
+        position: absolute;
+        opacity: 0.9;
+        border-radius: 5%;
+        width: 170px;
+        height:125px;
+        padding: 0rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+ #Git{
+        position: absolute;
+        opacity: 0.9;
+        border-radius: 25%;
+        width: 170px;
+        height:125px;
+        padding: 0rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+#Adresse{
+        position: absolute;
+        opacity: 0.9;
+        border-radius: 5%;
+        width: 170px;
+        height:125px;
+        display: flex;
+        flex-direction: column;
+    }
+
+ 
+#Email{
+        position: absolute;
+        opacity: 0.9;
+        border-radius: 5%;
+        width: 170px;
+        height:125px;
+        padding: 0rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+.Btnp3 {
+
+        background: yellowgreen;
+        color: maroon;
+        width:50%;
+        height: 25%;
+        position:relative;
+        left: 680px;
+        top: 700px;
+        border-radius: 900px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;
+    }
+
+#lI-1{
+    position: absolute;
+    border-radius: 100%;
+    width:40%;
+    height: 30%;
+    top: 300px;
+    left:390px;
+
+        
+    }
+
+#lI-2{
+        position: absolute;
+        border-radius: 100%;
+        width:40%;
+        height: 30%;
+        top: 300px;
+        left:630px;
+
+    }
+
+#lI-3{
+        position: absolute; 
+        border-radius: 10%;
+        width:40%;
+        height: 30%;
+        top: 300px;
+        left:875px;
+    }
+
+#lI-4{
+        position: absolute;
+        border-radius: 10%;
+        width:40%;
+        height: 30%;
+        top: 300px;
+        left:1125px;
+    }
+
+#btn1{
+        position: absolute;
+        top: 340px;
+        left:380px;
+
+    }
+
+#btn2{
+        position: absolute;
+        top: 340px;
+        left:625px;
+    }
+
+#btn3{
+        position: absolute;
+        top: 340px;
+        left:860px;
+    }
+
+#btn4{
+        position: absolute;
+        top: 340px;
+        left:1110px;
+    }
+
+       
+    

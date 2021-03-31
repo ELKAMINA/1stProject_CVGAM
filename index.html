@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css_retrieval_Identity.css">
+    <title>Identity Retrieval - Page 1</title>
+    
+</head>
+<body>
+    <!-- Le canvas  -->
+    <canvas id='monCanvas'></canvas>
+
+    <!-- Images CV qui apparaissent au clic sur chauve-souris -->
+
+    <div class="cvAppear" style="display: none;"><img src="./images/Coordonnees.png" class="cvmg1" alt=""></div>
+    <div class="cvAppear" style="display: none;"><img src="./images/Experiences.png" class="cvmg1" alt=""></div>
+    <div class="cvAppear" style="display: none;"><img src="./images/Competences_Langues.png" class="cvmg1" alt=""></div>
+    <div class="cvAppear" style="display: none;"><img src="./images/Formation.png" class="cvmg1" alt=""></div>
+    <div class="cvAppear" style="display: none;"><img src="./images/Hobbies.png" class="cvmg1" alt=""></div>
+
+
+    <!-- Bouton Play  -->
+    <div class="container" id="modelElement">
+    <div class="contenuC">
+        <div> <button class="bouton" id= startGameBtn> <span class="spanish">PLAY</span> </button> </div>
+    </div>
+    </div>
+
+<!-- LAYOUT DE LA PAGE -->
+
+    <!-- Titre-->  
+
+<div id = "TitreJeu">
+    <h1 id="TitrePrincipal">Identity Retrieval</h1>
+</div>
+
+    <!-- Instructions Jeu-->  
+<div id = "Instructions">
+    <p>
+        Bienvenue sur Identity Retrieval!<br> 
+        J'ai un problème et <span class="spanish1">j'ai besoin de toi </span> . J'ai été attaquée par des chauves-souris qui m'ont volées  <span class="spanish1">mon identité</span> et je voudrais la récupérer. <br> Chaque chauve-souris détient une partie de mon identité. Si tu les tues toutes, tu auras accès à toutes mes informations alors <span class="spanish1">. RAPPELLES-TOI DE TOUT CE QUI EST ÉCRIT pour me les transmettre!.</span><br> ATTENTION, tu n'as que 15s avant que les chauves-souris ne gèlent!</p>
+</div>
+
+    <!-- Menu -->   
+      <nav>
+            <ul>
+                <li><a href="./index.html" > Accueil</a></li>
+                <li><a href="./index2.html"> CV complet</a></li>
+                <li><a href="./index3.html"> Contact</a></li>
+         
+            </ul>
+      </nav>
+
+    <!-- Images Background - Chauves-souris --> 
+
+<div id = "ImageDesChauvesSouris">
+<img src="images/backgroundHtml.png" alt="" id="bg-1">
+<img src="images/backgroundHtml.png" alt="" id="bg-2" >
+<img src="images/backgroundHtml.png" alt="" id="bg-3" >
+
+</div>
+<script src="./javaScript_retrieval_Identity.js"></script>
+</body>
+</html>
