@@ -144,4 +144,7 @@ var afficheTemps = function (){
     ctx.fillStyle= 'yellowgreen';
     ctx.font = "25px comic";
     ctx.fillText('temps' +" "+'restant:'+ (15 - (Math.floor(tempsEcoule/60))) +"s",400, 20)};
-    
+
+
+// Fonction pour éviter les scrolls 
+
